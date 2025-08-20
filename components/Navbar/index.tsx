@@ -55,24 +55,14 @@ export default function Navbar() {
             WORKS
           </Link>
           <Link
-            href="/notes"
+            href="/blog"
             className={`transition-colors duration-200 ${
-              isActive("/notes")
+              isActive("/blog")
                 ? "border-b-2 border-gray-600 dark:border-gray-400 font-semibold"
                 : "hover:text-gray-600 dark:hover:text-gray-300 text-gray-400"
             }`}
           >
-            NOTES
-          </Link>
-          <Link
-            href="/thoughts"
-            className={`transition-colors duration-200 ${
-              isActive("/thoughts")
-                ? "border-b-2 border-gray-600 dark:border-gray-400 font-semibold"
-                : "hover:text-gray-600 dark:hover:text-gray-300 text-gray-400"
-            }`}
-          >
-            THOUGHTS
+            BLOG
           </Link>
         </div>
       </div>
